@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>WCWTS</title>
+  <style>
+    body { font-family: Arial, Helvetica, sans-serif; width: 260px; padding: 12px; }
+    .row { display:flex; align-items:center; justify-content:space-between; margin-bottom:10px; }
+    .btn { padding:6px 10px; border:1px solid #ccc; border-radius:6px; background:#fff; cursor:pointer; }
+    .btn.primary { background:#0b66c3; color:#fff; border-color:#0b66c3; }
+    a { color: #0b66c3; text-decoration:none; }
+  </style>
+</head>
+<body>
+  <h3 style="margin:0 0 10px 0;">WCWTS</h3>
+  <div class="row">
+    <div>Extension</div>
+    <label>
+      <input id="toggleEnabled" type="checkbox" />
+    </label>
+  </div>
+
+  <div class="row">
+    <div>Use Codeforces API</div>
+    <label>
+      <input id="toggleApi" type="checkbox" />
+    </label>
+  </div>
+
+  <div style="display:flex; gap:8px; margin-top:8px;">
+    <button id="refreshBtn" class="btn">Refresh page</button>
+    <button id="openOptions" class="btn">Options</button>
+  </div>
+
+  <hr style="margin:12px 0;" />
+  <div style="font-size:0.9rem;">
+    <strong>Note:</strong> This extension only reads public Codeforces pages. No login data is collected.
+  </div>
+  <script src="popup/popup.js"></script>
+</body>
+</html>

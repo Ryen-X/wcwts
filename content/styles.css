@@ -1,0 +1,55 @@
+/* Scoped styles for WCWTS - all classes prefixed with wcwts- to avoid collisions */
+
+.wcwts-header {
+  background: #f6f7f9;
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+  font-weight: 600;
+  color: #222;
+}
+
+.wcwts-header .wcwts-inner {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 12px;
+  font-size: 0.95rem;
+}
+
+.wcwts-contest-link {
+  text-decoration: none;
+  color: #0b66c3;
+}
+
+.wcwts-badge {
+  font-size: 0.85rem;
+  padding: 4px 8px;
+  border-radius: 12px;
+  background: #e9eef8;
+  color: #0b66c3;
+}
+
+.wcwts-badge.wcwts-live {
+  background: #dfffe7;
+  color: #1b7a2f;
+}
+
+.wcwts-badge.wcwts-virtual {
+  background: #fff4e0;
+  color: #b36c00;
+}
+
+.wcwts-badge.wcwts-practice {
+  background: #dadaff;
+  color: #000064;
+}
+
+.wcwts-meta {
+  margin-left: auto;
+  font-size: 0.82rem;
+  color: #555;
+}
+
+.wcwts-group-gap {
+  height: 10px;
+}

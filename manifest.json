@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "WCWTS — Which Contest Was This Submitted?",
+  "description": "Group Codeforces submissions by contest and label Live/Virtual/Practice.",
+  "version": "1.0.1",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "https://codeforces.com/*"
+  ],
+  "action": {
+    "default_icon": "icons/icon48.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://codeforces.com/submissions*"],
+      "js": ["content/content_script.js"],
+      "css": ["content/styles.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "options_page": "options/options.html"
+}
