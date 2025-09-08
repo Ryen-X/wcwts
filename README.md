@@ -21,8 +21,7 @@ WCWTS (What Contest Was This Submission) is a Chrome/Chromium extension that
 5. Visit your Codeforces submissions page and enjoy grouped views!
 
 ### 📸 Screenshots
-![Grouped Submissions Example](docs/screenshot1.png)
-![Header Badge Example](docs/screenshot2.png)
+![https://raw.githubusercontent.com/Ryen-X/a/refs/heads/master/Screenshot%202025-09-08%20171237.png?token=GHSAT0AAAAAADIAXI3RKYYYOMHOU6PEZABU2F6YGWA]
 
 ### 📝 License
 MIT License
